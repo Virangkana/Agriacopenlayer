@@ -14,7 +14,7 @@ var wms_layers = [];
         });
 var lyr__1 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "http://110.164.49.72:8081/geoserver/WMSDOL/wms",
+                              url: "http://110.164.49.72:8081/geoserver/WMSDOL/wms?",
     attributions: ' ',
                               params: {
                                 "LAYERS": "MV_SPARCEL",
